@@ -1,0 +1,60 @@
+!java.util.Stack
+-  0: &1 !models.User
+      id: 0
+      activities: 
+         0: &2 !models.Activity
+            id: 0
+            distance: 0.001
+            location: fridge
+            type: walk
+         1: &3 !models.Activity
+            id: 1
+            distance: 1.0
+            location: bar
+            type: walk
+         2: &4 !models.Activity
+            id: 2
+            distance: 2.2
+            location: work
+            type: run
+      email: homer@simpson.com
+      firstName: homer
+      lastName: simpsom
+      password: secret
+   1: &5 !models.User
+      id: 1
+      activities: 
+         3: &6 !models.Activity
+            id: 3
+            distance: 2.5
+            location: shop
+            route: 
+            - !models.Location
+               id: 0
+               latitude: 23.3
+               longitude: 32.3
+            - !models.Location
+               id: 1
+               latitude: 23.3
+               longitude: 32.5
+            - !models.Location
+               id: 2
+               latitude: 23.3
+               longitude: 32.6
+            type: walk
+         4: &7 !models.Activity
+            id: 4
+            distance: 4.5
+            location: shop
+            type: cycle
+      email: marge@simpson.com
+      firstName: marge
+      lastName: simpson
+      password: secret
+-  homer@simpson.com: *1
+   marge@simpson.com: *5
+-  0: *2
+   1: *3
+   2: *4
+   3: *6
+   4: *7

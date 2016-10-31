@@ -1,0 +1,178 @@
+<object-stream>
+  <java.util.Stack serialization="custom">
+    <unserializable-parents/>
+    <vector>
+      <default>
+        <capacityIncrement>0</capacityIncrement>
+        <elementCount>3</elementCount>
+        <elementData>
+          <map>
+            <entry>
+              <long>0</long>
+              <models.User>
+                <firstName>homer</firstName>
+                <lastName>simpsom</lastName>
+                <email>homer@simpson.com</email>
+                <password>secret</password>
+                <id>0</id>
+                <activities>
+                  <entry>
+                    <long>0</long>
+                    <models.Activity>
+                      <id>0</id>
+                      <type>walk</type>
+                      <location>fridge</location>
+                      <distance>0.001</distance>
+                      <datetime resolves-to="java.time.Ser">
+                        <byte>5</byte>
+                        <int>2013</int>
+                        <byte>10</byte>
+                        <byte>12</byte>
+                        <byte>-10</byte>
+                      </datetime>
+                      <duration resolves-to="java.time.Ser">
+                        <byte>1</byte>
+                        <long>3600</long>
+                        <int>0</int>
+                      </duration>
+                      <route/>
+                    </models.Activity>
+                  </entry>
+                  <entry>
+                    <long>1</long>
+                    <models.Activity>
+                      <id>1</id>
+                      <type>walk</type>
+                      <location>fridge</location>
+                      <distance>0.002</distance>
+                      <datetime resolves-to="java.time.Ser">
+                        <byte>5</byte>
+                        <int>2013</int>
+                        <byte>10</byte>
+                        <byte>12</byte>
+                        <byte>-10</byte>
+                      </datetime>
+                      <duration resolves-to="java.time.Ser">
+                        <byte>1</byte>
+                        <long>18000</long>
+                        <int>0</int>
+                      </duration>
+                      <route>
+                        <models.Location>
+                          <id>0</id>
+                          <latitude>23.3</latitude>
+                          <longitude>32.3</longitude>
+                        </models.Location>
+                        <models.Location>
+                          <id>1</id>
+                          <latitude>23.3</latitude>
+                          <longitude>32.5</longitude>
+                        </models.Location>
+                        <models.Location>
+                          <id>2</id>
+                          <latitude>23.3</latitude>
+                          <longitude>32.6</longitude>
+                        </models.Location>
+                      </route>
+                    </models.Activity>
+                  </entry>
+                  <entry>
+                    <long>3</long>
+                    <models.Activity>
+                      <id>3</id>
+                      <type>walk</type>
+                      <location>fridge</location>
+                      <distance>0.003</distance>
+                      <datetime resolves-to="java.time.Ser">
+                        <byte>5</byte>
+                        <int>2013</int>
+                        <byte>10</byte>
+                        <byte>12</byte>
+                        <byte>-10</byte>
+                      </datetime>
+                      <duration resolves-to="java.time.Ser">
+                        <byte>1</byte>
+                        <long>3600</long>
+                        <int>0</int>
+                      </duration>
+                      <route/>
+                    </models.Activity>
+                  </entry>
+                </activities>
+              </models.User>
+            </entry>
+            <entry>
+              <long>1</long>
+              <models.User>
+                <firstName>homer2</firstName>
+                <lastName>simpsom2</lastName>
+                <email>homer2@simpson.com</email>
+                <password>secret2</password>
+                <id>1</id>
+                <activities>
+                  <entry>
+                    <long>2</long>
+                    <models.Activity>
+                      <id>2</id>
+                      <type>walk</type>
+                      <location>fridge</location>
+                      <distance>0.005</distance>
+                      <datetime resolves-to="java.time.Ser">
+                        <byte>5</byte>
+                        <int>2013</int>
+                        <byte>10</byte>
+                        <byte>12</byte>
+                        <byte>-10</byte>
+                      </datetime>
+                      <duration resolves-to="java.time.Ser">
+                        <byte>1</byte>
+                        <long>3600</long>
+                        <int>0</int>
+                      </duration>
+                      <route/>
+                    </models.Activity>
+                  </entry>
+                </activities>
+              </models.User>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <string>homer@simpson.com</string>
+              <models.User reference="../../../map/entry/models.User"/>
+            </entry>
+            <entry>
+              <string>homer2@simpson.com</string>
+              <models.User reference="../../../map/entry[2]/models.User"/>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>0</long>
+              <models.Activity reference="../../../map/entry/models.User/activities/entry/models.Activity"/>
+            </entry>
+            <entry>
+              <long>1</long>
+              <models.Activity reference="../../../map/entry/models.User/activities/entry[2]/models.Activity"/>
+            </entry>
+            <entry>
+              <long>2</long>
+              <models.Activity reference="../../../map/entry[2]/models.User/activities/entry/models.Activity"/>
+            </entry>
+            <entry>
+              <long>3</long>
+              <models.Activity reference="../../../map/entry/models.User/activities/entry[3]/models.Activity"/>
+            </entry>
+          </map>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+        </elementData>
+      </default>
+    </vector>
+  </java.util.Stack>
+</object-stream>
